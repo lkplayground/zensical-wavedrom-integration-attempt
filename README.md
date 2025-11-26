@@ -1,6 +1,6 @@
 # Zensical+WaveDrom Integration Attempt MWE
 
-This repository contains a minimal working example for the problem of integrating [WaveDrom][wavedrom-gh] (JavaScript-based digital waveform rendering engine) with [Zensical having `navigation.instant` feature enabled][zensical-instant-navigation].
+This repository contains a minimal working example for the problem of integrating [WaveDrom][wavedrom-gh] (JavaScript-based digital waveform rendering engine) with [Zensical having `navigation.instant` feature enabled][zensical-instant-navigation]. Additional exemplary script (`mywrap.js`) is included which proves that the problem is of general nature and not WaveDrom-specific.
 
 Install:
 

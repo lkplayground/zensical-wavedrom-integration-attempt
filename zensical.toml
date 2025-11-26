@@ -3,9 +3,12 @@ site_name = "Zensical+WaveDrom Integration Attempt MWE"
 site_url = "http://localhost:8000/" # must be set for instant navigation to work
 
 extra_javascript = [
+  # WaveDrom
   "https://cdnjs.cloudflare.com/ajax/libs/wavedrom/3.5.0/skins/default.js",
   "https://cdnjs.cloudflare.com/ajax/libs/wavedrom/3.5.0/wavedrom.min.js",
   "wavedrom.js",
+  # Minimalist script that proves that the problem is not WaveDrom-specific:
+  "mywrap.js",
 ]
 
 [project.theme]
