@@ -1,0 +1,12 @@
+[project]
+site_name = "Zensical+WaveDrom Integration Attempt MWE"
+site_url = "http://localhost:8000/" # must be set for instant navigation to work
+
+extra_javascript = [
+  "https://cdnjs.cloudflare.com/ajax/libs/wavedrom/3.5.0/skins/default.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/wavedrom/3.5.0/wavedrom.min.js",
+  "wavedrom.js",
+]
+
+[project.theme]
+features = ["navigation.instant"]
